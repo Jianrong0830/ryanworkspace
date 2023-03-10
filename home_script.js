@@ -30,12 +30,3 @@ search_bar.addEventListener("keypress", function(event) {
     }
 });
 // ---------------------------------------------------------------------------
-var chatWidget = new window.OpenAIChatWidget({
-    container: document.getElementById("chat-container"),
-    // 您的OpenAI API密鑰
-    token: "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",
-    // 聊天小工具標題
-    title: "Chat with ChatGPT",
-    // 您希望與ChatGPT聊天的初始消息
-    initPayload: "/get_started",
-});
