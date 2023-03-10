@@ -12,53 +12,52 @@
     </head>
 
     <body BGCOLOR="#EEEEEE">
-        <script type="text/javascript" src="home_script.js"></script>
         <!----------------------------------------------------------------------------------------->
-        <div id="logo"><img src="image/logo.png"></div>
+        <div id="page1" class="page">
+            <div id="logo"><img src="image/logo.png"></div>
 
-        <div id=search_div class=home_div>
-            <input type="text" id="search_bar" placeholder="Search">
-            <button id="search_btn"><img class="logo_img" src="image/search.png" alt="Go"></button>
-        </div>
+            <div id=search_div class=home_div>
+                <input id="search_bar" placeholder="Search on Google">
+                <button id="search_btn" onclick="google_search()"><img class="logo_img" src="image/search.png" alt="Go"></button>
+            </div>
+            <div id="eventTitle_div" class=home_div>Recent Events</div>
 
-        <div id="eventTitle_div" class=home_div>Recent Events</div>
-
-        <div id=eventImg_div class=home_div>
-            <div id="event1" class="eventImg">
-                <a href="https://colab.research.google.com/drive/1lwkwyEVAjoH-6xGpchNPb2VaRII2xaj_#scrollTo=m3S-ZKaR1rF6"><img src="image/ProgramTrading.jpg" alt="Event1"></a>
-                <div id="eventName1" class="eventName">Program Trading</div>
+            <div id=eventImg_div class=home_div>
+                <div id="event1" class="eventImg">
+                    <a href="https://colab.research.google.com/drive/1lwkwyEVAjoH-6xGpchNPb2VaRII2xaj_#scrollTo=m3S-ZKaR1rF6"><img src="image/ProgramTrading.jpg" alt="Event1"></a>
+                    <div id="eventName1" class="eventName">Program Trading</div>
+                </div>
+                <div id="event2" class="eventImg">
+                    <a href="https://www.facebook.com/groups/1309706819821215"><img src="image/CybernetiX.webp" alt="Event2"></a>
+                    <div id="eventName2" class="eventName">Stock Forcast</div>
+                </div>
+                <div id="event3" class="eventImg">
+                    <a href="https://teach-orange.com/"><img src="image/Tutoring.webp" alt="Event3"></a>
+                    <div id="eventName3" class="eventName">Tutoring</div>
+                </div>
             </div>
-            <div id="event2" class="eventImg">
-                <a href="https://www.facebook.com/groups/1309706819821215"><img src="image/CybernetiX.webp" alt="Event2"></a>
-                <div id="eventName2" class="eventName">Stock Forcast</div>
-            </div>
-            <div id="event3" class="eventImg">
-                <a href="https://teach-orange.com/"><img src="image/Tutoring.webp" alt="Event3"></a>
-                <div id="eventName3" class="eventName">Tutoring</div>
-            </div>
-        </div>
-
-        <div id="media_div" class=home_div>
-            <div id="ig" class="media">
-                <a href="https://www.instagram.com/lao3_jr/"><img class="logo_img" src="image/Instagram.png" alt="Instagram"></a>
-            </div>
-            <div id="fb" class="media">
-                <a href="https://www.facebook.com/profile.php?id=100004732447989"><img class="logo_img" src="image/Facebook.png" alt="Facebook"></a>
-            </div>
-            <div id="line" class="media">
-                <a href="https://line.me/ti/p/fjjb2rS__V"><img class="logo_img" src="image/Line.png" alt="Line"></a>
-            </div>
-            <div id="twitter" class="media">
-                <a href="https://twitter.com/b4EMdjcMqfjLcrf"><img class="logo_img" src="image/Twitter.png" alt="Twitter"></a>
-            </div>
-            <div id="github" class="media">
-                <a href="https://github.com/Jianrong0830"><img class="logo_img" src="image/Github.png" alt="Github"></a>
-            </div>
-            <div id="youtube" class="media">
-                <a href="https://www.youtube.com/@user-nj9ik6ft7r"><img class="logo_img" src="image/Youtube.png" alt="Youtube"></a>
-            </div>
-            <div id="gmail" class="media">
-                <a href="mailto:ryanchen0830b@gmail.com"><img class="logo_img" src="image/Gmail.png" alt="Gmail"></a>
+            <div id="media_div" class=home_div>
+                <div id="ig" class="media">
+                    <a href="https://www.instagram.com/lao3_jr/"><img class="logo_img" src="image/Instagram.png" alt="Instagram"></a>
+                </div>
+                <div id="fb" class="media">
+                    <a href="https://www.facebook.com/profile.php?id=100004732447989"><img class="logo_img" src="image/Facebook.png" alt="Facebook"></a>
+                </div>
+                <div id="line" class="media">
+                    <a href="https://line.me/ti/p/fjjb2rS__V"><img class="logo_img" src="image/Line.png" alt="Line"></a>
+                </div>
+                <div id="twitter" class="media">
+                    <a href="https://twitter.com/b4EMdjcMqfjLcrf"><img class="logo_img" src="image/Twitter.png" alt="Twitter"></a>
+                </div>
+                <div id="github" class="media">
+                    <a href="https://github.com/Jianrong0830"><img class="logo_img" src="image/Github.png" alt="Github"></a>
+                </div>
+                <div id="youtube" class="media">
+                    <a href="https://www.youtube.com/@user-nj9ik6ft7r"><img class="logo_img" src="image/Youtube.png" alt="Youtube"></a>
+                </div>
+                <div id="gmail" class="media">
+                    <a href="mailto:ryanchen0830b@gmail.com"><img class="logo_img" src="image/Gmail.png" alt="Gmail"></a>
+                </div>
             </div>
         </div>
         <!-----------------------------------------------------------------------------------------> 
@@ -71,7 +70,18 @@
             </div>
             <div id="resume_div"><img id="resume" src="image/resume.png">
         </div>
-        
-        
+        <!----------------------------------------------------------------------------------------->
+        <div id="page3" class="page">
+            <iframe id="chatGPT"
+            src="https://www.bing.com/new?form=MY028Z&OCID=MY028Z"
+            width="100%"
+            title="YouTube video player"
+            frameborder="0"
+            allowfullscreen="true"
+            >
+      </iframe>
+        </div>
+        <!-----------------------------------------------------------------------------------------> 
+        <script type="text/javascript" src="home_script.js"></script>
     </body>
 </html>
