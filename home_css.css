@@ -40,10 +40,11 @@ img{
     cursor: pointer;
 }
 #menu{
-    position: relative;
+    position: absolute;
     display: flex;
     left: 2%;
-    width: 6%;
+    width: 5%;
+    height: 100%;
     justify-content: left;
     align-items: center;
 }
@@ -56,14 +57,23 @@ img{
     font-size: 15px;
 }
 #intro{
-    position: relative;
+    position: absolute;
     display: flex;
-    right: 2%;
-    width: 6%;
+    right: 7%;
+    width: 10%;
+    height: 100%;
     justify-content: right;
     align-items: center;
 }
-
+#top{
+    position: absolute;
+    display: flex;
+    right: 2%;
+    width: 3%;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+}
 /*---------------------------------*/
 #logo{
     position: absolute;
