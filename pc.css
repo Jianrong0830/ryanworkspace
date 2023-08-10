@@ -81,7 +81,7 @@ img{
 #mediaBar_div{
     position: fixed;
     display: block;
-    visibility: visible;
+    visibility: hidden;
     top: 100px;
     height: 500px;
     width: 65px;
@@ -100,9 +100,9 @@ img{
     visibility: visible;
     opacity: 1;
 }
-#page1_div:hover ~ #mediaBar_div {
+.page_div:hover + #mediaBar_div {
     visibility: hidden;
-    opacity: 0;
+    opacity: 0.6;
 }
 .media_app_div{
     position: relative;
