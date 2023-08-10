@@ -27,5 +27,5 @@ searchBar_input.addEventListener("keypress", function(event) {
         event.preventDefault();
         document.getElementById("searchBar_btn").click();
     }
-});
+}); 
 // ---------------------------------------------------------------------------
