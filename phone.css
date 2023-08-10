@@ -82,22 +82,20 @@ img{
     width: 65px;
     z-index: 2;
     background: silver;
-    opacity: 0.6;
-    transition: opacity 0.5s linear, visibility 0.5s linear;
+    opacity: 0;
+    transition: opacity 0.7s linear, visibility 0.7s linear;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 #mediaBar_trigger_div:hover + #mediaBar_div {
     visibility: visible;
-    opacity: 1;
 }
 #mediaBar_div:hover{
     visibility: visible;
     opacity: 1;
 }
-.page_div:hover + #mediaBar_div {
+#mediaBar_div:not(:hover){
     visibility: hidden;
-    opacity: 0.6;
 }
 .media_app_div{
     position: relative;
