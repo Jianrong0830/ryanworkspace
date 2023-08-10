@@ -68,6 +68,46 @@ img{
     justify-content: right;
     align-items: center;
 }
+/* 媒體列 */
+#mediaBar_trigger_div {
+    position: fixed;
+    display: flex;
+    top: 600px;
+    height: 100px;
+    width: 40px;
+    z-index: 1;
+    opacity: 0.3;
+    cursor: pointer;
+}
+#mediaBar_div {
+    position: fixed;
+    display: block;
+    visibility: hidden;
+    top: 400px;
+    height: 500px;
+    width: 65px;
+    z-index: 2;
+    background: silver;
+    opacity: 0.6;
+    transition: opacity 0.5s linear, visibility 0.5s linear;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#mediaBar_trigger_div:hover + #mediaBar_div {
+    visibility: visible;
+    opacity: 1;
+}
+#mediaBar_div:hover{
+    visibility: visible;
+    opacity: 1;
+}
+.media_app_div{
+    position: relative;
+    display: flex;
+    height: 50px;
+    margin-top: 30%;
+    margin-left: 10%;
+}
 /*第一頁*/
 #page1_div{
     position: absolute;

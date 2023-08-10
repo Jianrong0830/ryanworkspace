@@ -18,14 +18,14 @@ function google_search(){
     window.open(searchUrl, '_blank');
 }
 // 搜尋觸發(按鈕)
-searchBar_btn.addEventListener("click", function(){
+searchBar_input.addEventListener("click", function(){
     document.getElementById("searchBar_btn").click();
 });
 // 搜尋觸發(Enter鍵)
 searchBar_input.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
-    event.preventDefault();
-    document.getElementById("searchBar_btn").click();
+        event.preventDefault();
+        document.getElementById("searchBar_btn").click();
     }
 });
 // ---------------------------------------------------------------------------
