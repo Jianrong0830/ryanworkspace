@@ -210,3 +210,12 @@ img{
     background: #787A91;
     z-index: 0;
 }
+/*履歷*/
+#resume_iframe{
+    position: relative;
+    height: 1120px;
+    width: 770px;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+}
