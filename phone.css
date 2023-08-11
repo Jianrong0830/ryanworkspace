@@ -66,6 +66,7 @@ img{
 #mediaBar_trigger_div {
     position: fixed;
     display: flex;
+    visibility: visible;
     top: 350px;
     height: 100px;
     width: 40px;

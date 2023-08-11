@@ -44,19 +44,37 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// 媒體列
 document.addEventListener('DOMContentLoaded', function() {
     var mediaBar_trigger_div = document.getElementById('mediaBar_trigger_div');
     var mediaBar_div = document.getElementById('mediaBar_div');
+    var flag = false;
+
+    // 點擊
     mediaBar_trigger_div.addEventListener('click', function(e) {
-        e.stopPropagation();    //
+        flag = true;
+        e.stopPropagation();
+        mediaBar_trigger_div.style.visibility = 'hidden';
         mediaBar_div.style.visibility = 'visible';
         mediaBar_div.style.opacity = '1';
+        setTimeout(function() {
+            flag = false;
+        }, 10);
     });
-    document.addEventListener('click', function() {
+
+    // 滑過
+    mediaBar_trigger_div.addEventListener('mouseenter', function(e) {
+        mediaBar_trigger_div.click();
+    });
+    
+    // 消失
+    document.addEventListener('click', function(e) {
+        if (flag) {
+            e.stopPropagation();
+            return;
+        }
         mediaBar_div.style.opacity = '0';
         mediaBar_div.style.visibility = 'hidden';
-    });
-    mediaBar_div.addEventListener('click', function(e) {
-        e.stopPropagation();
+        mediaBar_trigger_div.style.visibility = 'visible';
     });
 });
