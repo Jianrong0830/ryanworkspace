@@ -10,6 +10,7 @@ img{
 .square_img{
     height: 100%;
     width: auto;
+    aspect-ratio: 1/1;
 }
 /*導覽列*/
 #navBar_div{
@@ -138,6 +139,8 @@ img{
     height: 100%;
     width: 5%;
     background: white;
+    border: 2px solid black;
+    border-radius: 4px;
 }
 #searchBar_btn:hover{
     background: azure;
