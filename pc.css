@@ -92,18 +92,6 @@ img{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-/*
-#mediaBar_trigger_div:hover + #mediaBar_div {
-    visibility: visible;
-}
-#mediaBar_div:hover{
-    visibility: visible;
-    opacity: 1;
-}
-#mediaBar_div:not(:hover){
-    visibility: hidden;
-}
-*/
 .media_app_div{
     position: relative;
     display: flex;
