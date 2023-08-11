@@ -92,6 +92,7 @@ img{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+/*
 #mediaBar_trigger_div:hover + #mediaBar_div {
     visibility: visible;
 }
@@ -102,6 +103,7 @@ img{
 #mediaBar_div:not(:hover){
     visibility: hidden;
 }
+*/
 .media_app_div{
     position: relative;
     display: flex;
