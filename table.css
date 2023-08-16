@@ -213,9 +213,9 @@ img{
 #resume_iframe{
     position: absolute;
     transform: translate(-50%);
-    top: 30%;
+    top: 27%;
     left: 50%;
-    height: 67%;
+    height: 70%;
     width: 90%;
 }
 /*關於我*/
@@ -224,7 +224,7 @@ img{
     display: block;
     height: 20%;
     width: 40%;
-    top: 7%;
+    top: 5%;
     left: 5%;
 }
 #aboutMe_Ch_div{
@@ -232,7 +232,7 @@ img{
     display: block;
     height: 20%;
     width: 40%;
-    top: 7%;
+    top: 5%;
     right: 5%;
 }
 .aboutMe_div{
