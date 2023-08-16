@@ -8,9 +8,12 @@ img{
     width: 100%;
 }
 .square_img{
+    transform: translate(-50%);
+    left: 50%;
+    position: relative;
     height: 100%;
     width: auto;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1; 
 }
 /*導覽列*/
 #navBar_div{
