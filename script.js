@@ -78,3 +78,25 @@ document.addEventListener('DOMContentLoaded', function() {
         mediaBar_trigger_div.style.visibility = 'visible';
     });
 });
+
+// 選單
+document.addEventListener('DOMContentLoaded', function() {
+    var navBar_menu_div = document.getElementById('navBar_menu_div');
+    var menu_div = document.getElementById('menu_div');
+    var isElementVisible = false;
+
+    function toggleSlide() {
+        if (!isElementVisible) {
+            menu_div.style.animation = 'slideIn 0.5s forwards';
+            isElementVisible = true;
+        } else {
+            menu_div.style.animation = 'slideOut 0.5s forwards';
+            isElementVisible = false;
+        }
+    }
+    // 點擊選單按鈕
+    navBar_menu_div.addEventListener('click', function(e) {
+        e.stopPropagation();
+        toggleSlide()
+    });
+});
