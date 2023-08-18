@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var menu_home_div = document.getElementById('menu_home_div');
     menu_home_div.addEventListener('click',function(){
-        menu_home_div.style.background = 'silver';
+        menu_home_div.classList.add('active');
         setTimeout(function() {
-            menu_home_div.style.background = 'gray';
+            menu_home_div.classList.remove('active');
         }, 100);
         scrollToObj('page1_div');
     },false);
@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     var menu_aboutMe_div = document.getElementById('menu_aboutMe_div');
     menu_aboutMe_div.addEventListener('click',function(){
-        menu_aboutMe_div.style.background = 'silver';
+        menu_aboutMe_div.classList.add('active');
         setTimeout(function() {
-            menu_aboutMe_div.style.background = 'gray';
+            menu_aboutMe_div.classList.remove('active');
         }, 100);
         scrollToObj('page2_div');
     },false);
@@ -41,9 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     var menu_event_div = document.getElementById('menu_event_div');
     menu_event_div.addEventListener('click',function(){
-        menu_event_div.style.background = 'silver';
+        menu_event_div.classList.add('active');
         setTimeout(function() {
-            menu_event_div.style.background = 'gray';
+            menu_event_div.classList.remove('active');
         }, 100);
         scrollToObj('page3_div');
     },false);

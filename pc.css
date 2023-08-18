@@ -118,6 +118,9 @@ img{
     cursor: pointer;
     background: silver;
 }
+.menu_topic_div.active{
+    background: silver;
+}
 /*媒體列*/
 #mediaBar_trigger_div{
     position: fixed;
@@ -296,4 +299,53 @@ img{
     height:713.6px;
     background: #EEEEEE;
     z-index: 0;
+}
+#event_title_div{
+    position: absolute;
+    display: flex;  
+    top: 60px;
+    left: 10%;
+    width: 90%;
+    height: 40px;
+    justify-content: left;
+    align-items: center;
+    font-size: 24;
+    font-weight: bolder;
+    font-family: 'Microsoft YaHei UI', 'MS Gothic', 'Yu Gothic UI Semibold'
+}
+#event_table{
+    position: absolute;
+    background: gray;
+    transform: translate(-50%);
+    top: 100px;
+    left: 50%;
+    height: 80%;
+    width: auto;
+    max-width: 80%;
+    border-collapse: collapse;
+    aspect-ratio: 2/1;
+}
+th{
+    width: 10%;
+}
+td{
+    display: inline-block;
+    width: 33%;
+    height: 33%;
+}
+.event_img_div{
+    position: relative;
+    display: flex;
+    top: 0%;
+    height: auto;
+    width: 80%;
+    aspect-ratio: 5/3;
+}
+.event_name_div{
+    position: relative;
+    display: flex;
+    height: 10%;
+}
+td img{
+    aspect-ratio: 5/3;
 }

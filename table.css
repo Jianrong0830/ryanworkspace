@@ -118,6 +118,9 @@ img{
     cursor: pointer;
     background: silver;
 }
+.menu_topic_div.active{
+    background: silver;
+}
 /* 媒體列 */
 #mediaBar_trigger_div {
     position: fixed;
@@ -259,9 +262,9 @@ img{
 #resume_iframe{
     position: absolute;
     transform: translate(-50%);
-    top: 27%;
+    top: 30%;
     left: 50%;
-    height: 70%;
+    height: 67%;
     width: 90%;
 }
 /*關於我*/
