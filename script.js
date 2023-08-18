@@ -49,6 +49,18 @@ document.addEventListener('DOMContentLoaded', function() {
     },false);
 });
 
+// 滾動至聯絡資訊
+document.addEventListener('DOMContentLoaded', function() {
+    var menu_contactMe_div = document.getElementById('menu_contactMe_div');
+    menu_contactMe_div.addEventListener('click',function(){
+        menu_contactMe_div.classList.add('active');
+        setTimeout(function() {
+            menu_contactMe_div.classList.remove('active');
+        }, 100);
+        scrollToObj('contactMe_div');
+    },false);
+});
+
 // Goole搜尋函數
 function google_search(){
     var query=document.getElementById('searchBar_input').value;

@@ -360,3 +360,13 @@ td img{
     border-width: 1%;
     aspect-ratio: 5/2.8;
 }
+/*聯絡資訊*/
+#contactMe_div{
+    position: absolute;
+    display: flex;
+    top: 4098px;
+    width: 100%;
+    height:300px;
+    background: #787A91;
+    z-index: 0;
+}
