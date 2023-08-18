@@ -6,6 +6,7 @@ body{
 img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .square_img{
     transform: translate(-50%);
@@ -291,4 +292,49 @@ img{
     height:932px;
     background: #EEEEEE;
     z-index: 0;
+}
+#event_title_div{
+    position: absolute;
+    display: flex;  
+    top: 8%;
+    left: 5%;
+    height: 5%;
+    justify-content: left;
+    align-items: center;
+    font-size: 18;
+    font-weight: bolder;
+    font-family: 'Microsoft YaHei UI', 'MS Gothic', 'Yu Gothic UI Semibold'
+}
+#event_table{
+    position: absolute;
+    display: flex;
+    transform: translate(-50%);
+    top: 15%;
+    left: 50%;
+    aspect-ratio: 3/2;
+    height: 80%;
+    width: auto;
+    max-width: 80%;
+}
+tr{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+td{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    width: 48%;
+    align-items: center;
+    justify-content: center;
+}
+.event_img_div{
+    margin: 10px;
+}
+td img{
+    border: groove black;
+    border-radius: 2%;
+    border-width: 1%;
+    aspect-ratio: 5/2.8;
 }

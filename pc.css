@@ -6,6 +6,7 @@ body{
 img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .square_img{
     transform: translate(-50%);
@@ -239,7 +240,7 @@ img{
     width: 100%;
     height: auto;
     border-style: groove;
-    border-color: #141E61;
+    border-color: black;
     border-radius: 2%;
     border-width: 1%;
 }
@@ -303,10 +304,9 @@ img{
 #event_title_div{
     position: absolute;
     display: flex;  
-    top: 60px;
+    top: 10%;
     left: 10%;
-    width: 90%;
-    height: 40px;
+    height: 5%;
     justify-content: left;
     align-items: center;
     font-size: 24;
@@ -315,37 +315,42 @@ img{
 }
 #event_table{
     position: absolute;
-    background: gray;
+    display: flex;
     transform: translate(-50%);
-    top: 100px;
+    top: 17%;
     left: 50%;
+    aspect-ratio: 3/2;
     height: 80%;
     width: auto;
     max-width: 80%;
-    border-collapse: collapse;
-    aspect-ratio: 2/1;
 }
-th{
-    width: 10%;
+tr{
+    display: flex;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 9/2; 
 }
 td{
-    display: inline-block;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
     width: 33%;
-    height: 33%;
+    align-items: center;
+    justify-content: left;
 }
 .event_img_div{
-    position: relative;
-    display: flex;
-    top: 0%;
-    height: auto;
-    width: 80%;
-    aspect-ratio: 5/3;
-}
-.event_name_div{
-    position: relative;
-    display: flex;
-    height: 10%;
+    margin: 10px;
 }
 td img{
-    aspect-ratio: 5/3;
+    border: groove black;
+    border-radius: 2%;
+    border-width: 1%;
+    aspect-ratio: 5/2.8;
+}
+th{
+    position: absolute;
+    display: none;
+    left: -10%;
+    height: 33%;
+    align-items: center;
 }
