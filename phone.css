@@ -328,9 +328,12 @@ td{
     width: 48%;
     align-items: center;
     justify-content: center;
+    aspect-ratio: 5/2.8;
 }
 .event_img_div{
+    display: flex;
     margin: 10px;
+    aspect-ratio: 5/2.8;
 }
 td img{
     border: groove black;
