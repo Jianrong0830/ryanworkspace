@@ -3,19 +3,49 @@ function scrollToObj(obj_id){
     document.getElementById(obj_id).scrollIntoView({behavior: "smooth"});
 }
 
+// 滾動至頂端
+document.addEventListener('DOMContentLoaded', function() {
+    var navBar_top_div = document.getElementById('navBar_top_div');
+    navBar_top_div.addEventListener('click',function(){
+        scrollToObj('page1_div');
+    },false);
+
+    var menu_home_div = document.getElementById('menu_home_div');
+    menu_home_div.addEventListener('click',function(){
+        menu_home_div.style.background = 'silver';
+        setTimeout(function() {
+            menu_home_div.style.background = 'gray';
+        }, 100);
+        scrollToObj('page1_div');
+    },false);
+});
+
 // 滾動至關於我
 document.addEventListener('DOMContentLoaded', function() {
     var navBar_aboutMe_div = document.getElementById('navBar_aboutMe_div');
     navBar_aboutMe_div.addEventListener('click',function(){
         scrollToObj('page2_div');
     },false);
+    
+    var menu_aboutMe_div = document.getElementById('menu_aboutMe_div');
+    menu_aboutMe_div.addEventListener('click',function(){
+        menu_aboutMe_div.style.background = 'silver';
+        setTimeout(function() {
+            menu_aboutMe_div.style.background = 'gray';
+        }, 100);
+        scrollToObj('page2_div');
+    },false);
 });
 
-// 滾動至頂端
+// 滾動至專案區
 document.addEventListener('DOMContentLoaded', function() {
-    var navBar_top_div = document.getElementById('navBar_top_div');
-    navBar_top_div.addEventListener('click',function(){
-        scrollToObj('page1_div');
+    var menu_event_div = document.getElementById('menu_event_div');
+    menu_event_div.addEventListener('click',function(){
+        menu_event_div.style.background = 'silver';
+        setTimeout(function() {
+            menu_event_div.style.background = 'gray';
+        }, 100);
+        scrollToObj('page3_div');
     },false);
 });
 

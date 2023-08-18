@@ -30,7 +30,6 @@ img{
 }
 .navBar_click_div:hover{
     color: white;
-    font-size: 20px;
     cursor: pointer;
 }
 #navBar_menu_div{
@@ -103,6 +102,21 @@ img{
         opacity: 0;
         transform: translateX(-100%);
     }
+}
+.menu_topic_div{
+    position:relative;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20;
+}
+.menu_topic_div:hover{
+    cursor: pointer;
+    background: silver;
 }
 /*媒體列*/
 #mediaBar_trigger_div{

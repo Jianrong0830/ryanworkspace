@@ -104,6 +104,20 @@ img{
         transform: translateX(-100%);
     }
 }
+.menu_topic_div{
+    position:relative;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20;
+}
+.menu_topic_div:hover{
+    cursor: pointer;
+    background: silver;
+}
 /* 媒體列 */
 #mediaBar_trigger_div {
     position: fixed;
