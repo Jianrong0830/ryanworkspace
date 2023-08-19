@@ -1,20 +1,53 @@
 <html>
-    <title>Stock Forecast</title>
+    <title>Quantitative Portfolio</title>
+
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="cybernetix_style.css">                               <!--導入CSS-->
-        <!--導覽列-->
-        <div id="navBar_div">
-            <div id="navBar_menu_div" class="navBar">Menu</div>                                    <!--選單-->
-            <div id="navBar_title_div"><H1>Stock Forecast Project</H1></div>                            <!--標題-->
-            <div id="navBar_intro_div" class="navBar">Introduction</div>                               <!--介紹-->
-            <div id="navBar_top_div" class="navBar">Top</div>                                     <!--回頂端-->
-        </div>
     </head>
 
     <body BGCOLOR="#EEEEEE">
-        <div id="page1_div" class="page_div">
-            <div id="cover_div"><img src="image/cover.jpeg"></div>
-        </div>
+        排版還在製作中，敬請見諒...
+
+        <h1>Quantitative Portfolio 量化投資組合</h1>
+
+        <h2>步驟</h2>
+
+        <h3>1.決定投資市場、投資時間、可承受風險</h3>
+        市場：規模最大、最成熟的美股市場<br>
+        投資時間：長期持有<br>
+        可承受風險：中等風險偏好<br><br>
+        (具體數值待定)
+
+        <h3>2.市場分析、建立模型</h3>
+        使用統計、AI等方法，針對大盤、個股建構適合的預測模型<br><br>
+        1.以商品期貨、經濟數據對飄普指數作線性回歸：<br><br>
+        資料期間：2007/8/30 - 2003/5/1<br>
+        資料週期：1天<br>
+        資料來源：使用 Python 結合 Yahoo Finance 及 Quandl API 抓取<br><br>
+        應變數：<br>
+        標普500(LN)<br><br>
+        自變數內容及係數：<br>
+        截距：5.616955439<br>
+        時間序列：0.000266351<br>
+        天然氣(平方)：0.002695128<br>
+        黃金(平方)：-4.81032E-08<br>
+        高級銅(根號)：0.479352232<br>
+        30年期國債殖利率(LN)：-0.143612473<br>
+        10/1年期國債殖利率差(3次方)：0.00544219<br>
+        失業率(平方)：-0.001145234<br>
+        聯邦資金有效利率(6次方)：1.80036E-05<br>
+        黃金*30年期國債殖利率(平方)：-6.26839E-09<br>
+        天然氣*失業率(平方)：-5.49392E-05<br><br>
+
+        詳細過程及結果 (包含預測工具)：<br>
+        <iframe width="500" height="400" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=647973ABEA8CC900%215625&authkey=%21AAXdfbBI-3p_X0c&em=2&AllowTyping=True&ActiveCell='%E9%A0%90%E6%B8%AC'!A1&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
+
+        <h3>3.根據模型尋找適合標的</h3>
+
+        <h3>4.計算權重</h3>
+
+        <h3>5.執行及觀察</h3>
+        
+
     </body>
 </html>
