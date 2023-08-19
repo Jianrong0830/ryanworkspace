@@ -316,12 +316,12 @@ img{
     width: auto;
     max-width: 80%;
 }
-tr{
+.event_table_tr{
     display: inline-block;
     width: 100%;
     margin-bottom: 30px;
 }
-td{
+.event_table_td{
     position: relative;
     display: inline-flex;
     flex-direction: column;
@@ -335,7 +335,7 @@ td{
     margin: 10px;
     aspect-ratio: 5/2.8;
 }
-td img{
+.event_table_td img{
     border: groove black;
     border-radius: 2%;
     border-width: 1%;
@@ -347,7 +347,49 @@ td img{
     display: flex;
     top: 2796px;
     width: 100%;
-    height:200px;
+    height:150px;
     background: #787A91;
     z-index: 0;
+}
+#contactMe_title_div{
+    position: absolute;
+    display: flex;
+    transform: translate(-50%);
+    top: 10%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 24;
+    font-weight: bolder;
+    color: white;
+}
+#contactMe_table{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    height: 50%;
+    width: 90%;
+}
+.contactMe_table_tr{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.contactMe_table_td{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: left;
+    align-items: center;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 14;
+}
+.hide_td{
+    display: none;
+    width: 0;
 }
