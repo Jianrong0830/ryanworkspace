@@ -333,15 +333,16 @@ img{
     aspect-ratio: 5/2.8;
 }
 .event_img_div{
-    
+    display: flex;
     margin: 10px;
     aspect-ratio: 5/2.8;
 }
 .event_table_td img{
+    display: flex;
     border: groove black;
     border-radius: 2%;
     border-width: 1%;
-    
+    aspect-ratio: 5/2.8;
 }
 /*聯絡資訊*/
 #contactMe_div{

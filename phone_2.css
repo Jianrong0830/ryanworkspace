@@ -19,7 +19,7 @@ img{
 /*導覽列*/
 #navBar_div{
     position: fixed;
-    display: flex;
+    display: none;
     width: 100%;
     height: 50px;
     z-index: 1;
@@ -338,6 +338,7 @@ img{
     aspect-ratio: 5/2.8;
 }
 .event_table_td img{
+    display: flex;
     border: groove black;
     border-radius: 2%;
     border-width: 1%;
