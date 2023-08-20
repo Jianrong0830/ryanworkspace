@@ -326,9 +326,6 @@ img{
     margin-bottom: 30px;
 }
 .event_table_td{
-    position: relative;
-    display: flex;
-    
     width: 48%;
     align-items: center;
     justify-content: center;
