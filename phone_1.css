@@ -330,7 +330,7 @@ img{
     width: 48%;
     align-items: center;
     justify-content: center;
-    
+    aspect-ratio: 5/2.8;
 }
 .event_img_div{
     
@@ -341,7 +341,7 @@ img{
     border: groove black;
     border-radius: 2%;
     border-width: 1%;
-    aspect-ratio: 5/2.8;
+    
 }
 /*聯絡資訊*/
 #contactMe_div{
