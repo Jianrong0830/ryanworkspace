@@ -119,7 +119,7 @@ img{
 /* 媒體列 */
 #mediaBar_trigger_div {
     position: fixed;
-    display: flex;
+    display: none;
     visibility: visible;
     transform: translate(0%, -50%);
     top: 50%;
