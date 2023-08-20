@@ -333,7 +333,7 @@ img{
     aspect-ratio: 5/2.8;
 }
 .event_img_div{
-    
+    display: flex;
     margin: 10px;
     aspect-ratio: 5/2.8;
 }
