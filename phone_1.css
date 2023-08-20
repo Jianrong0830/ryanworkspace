@@ -24,7 +24,6 @@ img{
     height: 60px;
     z-index: 1;
     background: #0F044C;
-    display: none;
 }
 .navBar_click_div{
     color: darkgray;
@@ -123,7 +122,7 @@ img{
     display: flex;
     visibility: visible;
     transform: translate(0%, -50%);
-    top: 55%;
+    top: 60%;
     height: 60px;
     width: 60px;
     z-index: 1;
@@ -133,8 +132,7 @@ img{
     position: fixed;
     display: block;
     visibility: hidden;
-    transform: translate(0%, -50%);
-    top: 55%;
+    top: 150px;
     height: 500px;
     width: 65px;
     z-index: 2;
@@ -147,7 +145,7 @@ img{
 .media_app_div{
     position: relative;
     display: flex;
-    height: 10%;
+    height: 50px;
     margin-top: 30%;
     margin-left: 10%;
 }
@@ -261,7 +259,7 @@ img{
     transform: translate(-50%);
     top: 40%;
     left: 50%;
-    height: 47%;
+    height: 50%;
     width: 90%;
 }
 /*關於我*/
@@ -319,27 +317,30 @@ img{
     width: auto;
     max-width: 80%;
 }
-.event_table_th{
-    display: none;
-}
 .event_table_tr{
+    display: inline-block;
+    width: 100%;
     margin-bottom: 30px;
 }
 .event_table_td{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
     width: 48%;
     align-items: center;
     justify-content: center;
-    
+    aspect-ratio: 5/2.8;
 }
 .event_img_div{
+    display: flex;
     margin: 10px;
+    aspect-ratio: 5/2.8;
 }
 .event_table_td img{
-    display: flex;
     border: groove black;
     border-radius: 2%;
     border-width: 1%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 5/2.8;
 }
 /*聯絡資訊*/
 #contactMe_div{
