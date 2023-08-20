@@ -325,17 +325,15 @@ img{
 }
 .event_table_td{
     position: relative;
-    display: inline-flex;
-    flex-direction: column;
+    display: inline-block;
     width: 48%;
     align-items: center;
     justify-content: center;
-    
 }
 .event_img_div{
     display: flex;
     margin: 10px;
-    
+    aspect-ratio: 5/2.8;
 }
 .event_table_td img{
     display: flex;
