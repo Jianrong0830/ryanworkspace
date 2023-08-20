@@ -134,8 +134,8 @@ img{
     visibility: hidden;
     transform: translate(0%, -50%);
     top: 50%;
-    height: 500px;
-    width: 65px;
+    height: 450px;
+    width: 60px;
     z-index: 2;
     background: silver;
     opacity: 0;
@@ -146,7 +146,7 @@ img{
 .media_app_div{
     position: relative;
     display: flex;
-    height: 50px;
+    height: 45px;
     margin-top: 30%;
     margin-left: 10%;
 }
