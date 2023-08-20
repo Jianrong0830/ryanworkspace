@@ -21,7 +21,7 @@ img{
     position: fixed;
     display: flex;
     width: 100%;
-    height: 50px;
+    height: 60px;
     z-index: 1;
     background: #0F044C;
 }
@@ -127,7 +127,8 @@ img{
     position: fixed;
     display: flex;
     visibility: visible;
-    top: 300px;
+    transform: translate(0%,-50%);
+    top: 50%;
     height: 60px;
     width: 60px;
     z-index: 1;
@@ -137,7 +138,8 @@ img{
     position: fixed;
     display: block;
     visibility: hidden;
-    top: 100px;
+    transform: translate(0%,-50%);
+    top: 50%;
     height: 500px;
     width: 65px;
     z-index: 2;
@@ -161,7 +163,7 @@ img{
     display: flex;
     top: 0px;
     width: 100%;
-    height:713.6px;
+    height:923px;
     background: #EEEEEE;
     z-index: 0;
 }
@@ -254,9 +256,9 @@ img{
 #page2_div{
     position: absolute;
     display: flex;
-    top: 713.6px;
+    top: 923px;
     width: 100%;
-    height:713.6px;
+    height:923px;
     background: #787A91;
     z-index: 0;
 }
@@ -283,11 +285,11 @@ img{
     display: block;
     height: 40%;
     width: 235px;
-    bottom: 5%;
+    bottom: 2%;
     right: 5%;
 }
 .aboutMe_div{
-    font-size: 18;
+    font-size: 20;
     color: white;
     font-family: 'Microsoft YaHei UI', 'MS Gothic', 'Yu Gothic UI Semibold'
 }
@@ -295,9 +297,9 @@ img{
 #page3_div{
     position: absolute;
     display: flex;
-    top: 1427.2px;
+    top: 1846px;
     width: 100%;
-    height:713.6px;
+    height:923px;
     background: #EEEEEE;
     z-index: 0;
 }
@@ -358,7 +360,7 @@ img{
 #contactMe_div{
     position: absolute;
     display: flex;
-    top: 2140.8px;
+    top: 2769px;
     width: 100%;
     height:120px;
     background: #787A91;
