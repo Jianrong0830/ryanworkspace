@@ -318,15 +318,17 @@ img{
     width: auto;
     max-width: 80%;
 }
+.event_table_th{
+    display: none;
+}
 .event_table_tr{
-    display: inline-block;
     width: 100%;
     margin-bottom: 30px;
 }
 .event_table_td{
     position: relative;
-    display: inline-flex;
-    flex-direction: column;
+    display: flex;
+    
     width: 48%;
     align-items: center;
     justify-content: center;
