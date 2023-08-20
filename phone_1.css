@@ -24,6 +24,7 @@ img{
     height: 60px;
     z-index: 1;
     background: #0F044C;
+    display: none;
 }
 .navBar_click_div{
     color: darkgray;
