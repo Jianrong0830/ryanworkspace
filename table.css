@@ -127,7 +127,8 @@ img{
     position: fixed;
     display: flex;
     visibility: visible;
-    top: 400px;
+    transform: translate(0%, -50%);
+    top: 50%;
     height: 60px;
     width: 60px;
     z-index: 1;
@@ -137,7 +138,8 @@ img{
     position: fixed;
     display: block;
     visibility: hidden;
-    top: 400px;
+    transform: translate(0%, -50%);
+    top: 50%;
     height: 500px;
     width: 65px;
     z-index: 2;
