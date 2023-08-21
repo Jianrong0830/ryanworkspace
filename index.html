@@ -3,10 +3,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <!--導入 RWD CSS-->
-        <link rel="stylesheet" type="text/css" href="pc_1.css" media="screen and (min-width:980px)">
+        <link rel="stylesheet" type="text/css" href="pc_1.css" media="screen and (min-width:980px) and (min-height:714px)">
         <link rel="stylesheet" type="text/css" href="pc_2.css" media="screen and (min-width:980px) and (max-height:713.6px)">
         <link rel="stylesheet" type="text/css" href="table.css" media="screen and (min-width:600px) and (max-width:979px)">
-        <link rel="stylesheet" type="text/css" href="phone_1.css" media="screen and (max-width:599px)">
+        <link rel="stylesheet" type="text/css" href="phone_1.css" media="screen and (max-width:599px) and (min-height:601px)">
         <link rel="stylesheet" type="text/css" href="phone_2.css" media="screen and (max-width:599px) and (max-height:600px)">
         <script src="script.js"></script>
     </head>
@@ -78,7 +78,7 @@
                     <!--事項2-->
                     <div id="recentEvent_event2_div" class="recentEvent_event_div">
                         <div class="recentEvent_img_div"><a href="https://www.instagram.com/meme_boo_boo_/" target="_blank"><img src="image/meme.jpg" alt="Memes Instagram"></a></div>
-                        <div id="recentEvent_event2_name_div" class="recentEvent_name_div">Memes Instagram</div>
+                        <div id="recentEvent_event2_name_div" class="recentEvent_name_div">Memes</div>
                     </div>
                     <!--事項3-->
                     <div id="recentEvent_event3_div" class="recentEvent_event_div">
@@ -110,43 +110,56 @@
 
         <!--第三頁-->
         <div id="page3_div" class="page_div">
-            <div id="event_title_div">Events and Projects (IOS 16 up)</div>
+            <div id="event_title_div">Events and Projects</div>
 
-            <table id="event_table">
-                <tr class="event_table_tr">
-                    <th class="event_table_th">Fintech</th>
-                    <td class="event_table_td">
-                        <div class="event_img_div"><a href="quantitative_portfolio/index.html" target="_blank"><img src="image/quantitative_portfolio.webp" alt="Quantitative Portfolio"></a></div>
-                        <div class="event_name_div">Quantitative Portfolio</div>
-                    </td>
-                    <td class="event_table_td">
-                        <div class="event_img_div"><a href="quantitative_trading/index.html" target="_blank"><img src="image/quantitative_trading.jpg" alt="Quantitative trading"></a></div>
-                        <div class="event_name_div">Quantitative Trading</div>
-                    </td>
-                </tr>
-                <tr class="event_table_tr">
-                    <th class="event_table_th">Interests</th>
-                    <td class="event_table_td">
-                        <div class="event_img_div"><a href="https://www.youtube.com/channel/UCF2RW5WgBDkWn9KXJLxIu6g" target="_blank"><img src="image/guitar.jpg" alt="Guitarist & Band"></a></div>
-                        <div class="event_name_div">Guitarist & Band</div>
-                    </td>
-                    <td class="event_table_td">
-                        <div class="event_img_div"><a href="https://www.instagram.com/ryan_bike_2215/" target="_blank"><img src="image/motorcycle.jpg" alt="Motorcycle"></a></div>
-                        <div class="event_name_div">Motorcycle</div>
-                    </td>
-                    <td class="event_table_td">
-                        <div class="event_img_div"><a href="https://www.instagram.com/meme_boo_boo_/" target="_blank"><img src="image/meme.jpg" alt="Memes Instagram"></a></div>
-                        <div class="event_name_div">Memes Instagram</div>
-                    </td>
-                </tr>
-                <tr class="event_table_tr">
-                    <th class="event_table_th">Others</th>
-                    <td class="event_table_td">
-                        <div class="event_img_div"><a href="https://tutoringclass.budibase.app/app/cclass_upload#/home" target="_blank"><img src="image/Tutoring.webp" alt="Tutoring"></a></div>
-                        <div class="event_name_div">Tutoring</div>
-                    </td>
-                </tr>
-            </table>
+            <div id="event_table_div">
+
+                <div class="event_row_div">
+                    <div class="event_row_title_div">Fintech</div>
+                    <div class="event_row_content_div">
+                        <div class="event_each_div">
+                            <div class="event_img_div"><a href="quantitative_portfolio/index.html" target="_blank"><img src="image/quantitative_portfolio.webp" alt="Quantitative Portfolio"></a></div>
+                            <div class="event_name_div">Quantitative Portfolio</div>
+                        </div>
+                        <div class="event_each_div">
+                            <div class="event_img_div"><a href="quantitative_trading/index.html" target="_blank"><img src="image/quantitative_trading.jpg" alt="Quantitative trading"></a></div>
+                            <div class="event_name_div">Quantitative Trading</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="event_row_div">
+                    <div class="event_row_title_div">Interests</div>
+                    <div class="event_row_content_div">
+                        <div class="event_each_div">
+                            <div class="event_img_div"><a href="https://www.youtube.com/channel/UCF2RW5WgBDkWn9KXJLxIu6g" target="_blank"><img src="image/guitar.jpg" alt="Guitarist & Band"></a></div>
+                            <div class="event_name_div">Guitarist & Band</div>
+                        </div>
+                        <div class="event_each_div">
+                            <div class="event_img_div"><a href="https://www.instagram.com/ryan_bike_2215/" target="_blank"><img src="image/motorcycle.jpg" alt="Motorcycle"></a></div>
+                            <div class="event_name_div">Motorcycle</div>
+                        </div>
+                        <div class="event_each_div">
+                            <div class="event_img_div"><a href="reviewsOfDramas/index.html" target="_blank"><img src="image/drama.jpg" alt="Reviews of Dramas"></a></div>
+                            <div class="event_name_div">Reviews of Dramas</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="event_row_div">
+                    <div class="event_row_title_div">Others</div>
+                    <div class="event_row_content_div">
+                        <div class="event_each_div">
+                            <div class="event_img_div"><a href="https://tutoringclass.budibase.app/app/cclass_upload#/home" target="_blank"><img src="image/Tutoring.webp" alt="Tutoring"></a></div>
+                            <div class="event_name_div">Tutoring</div>
+                        </div>
+                        <div class="event_each_div">
+                            <div class="event_img_div"><a href="https://www.instagram.com/meme_boo_boo_/" target="_blank"><img src="image/meme.jpg" alt="Memes Instagram"></a></div>
+                            <div class="event_name_div">Memes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--聯絡資訊-->

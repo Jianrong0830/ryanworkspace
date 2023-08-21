@@ -307,41 +307,62 @@ img{
     font-weight: bolder;
     font-family: 'Microsoft YaHei UI', 'MS Gothic', 'Yu Gothic UI Semibold'
 }
-#event_table{
+#event_table_div{
     position: absolute;
-    display: flex;
+    display: block;
     transform: translate(-50%);
     top: 15%;
     left: 50%;
-    aspect-ratio: 3/2;
-    height: 80%;
-    width: auto;
-    max-width: 80%;
+    height: 85%;
+    width: 80%;
 }
-.event_table_tr{
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 10px;
-}
-.event_table_td{
+.event_row_div{
     position: relative;
-    display: inline-flex;
-    flex-direction: column;
-    width: 48%;
+    display: block;
+    width: 100%;
+}
+.event_row_title_div{
+    position: relative;
+    display: flex;
+    top: 0%;
+    height: 5%;
+    width: 100%;
+    justify-content: left;
     align-items: center;
-    justify-content: center;
-    aspect-ratio: 5/2.8;
+    font-size: 16;
+    font-weight: bold;
+    font-family: 'Microsoft YaHei UI', 'MS Gothic', 'Yu Gothic UI Semibold'
+}
+.event_row_content_div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.event_each_div{
+    position: relative;
+    display: block;
+    width: 44%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .event_img_div{
+    position: relative;
     display: flex;
-    margin: 10px;
+    width: 100%;
+    height: auto;
     aspect-ratio: 5/2.8;
-}
-.event_table_td img{
-    display: flex;
+    margin-left: 0px;
     border: groove black;
     border-radius: 2%;
     border-width: 1%;
+}
+.event_img_div img{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
     aspect-ratio: 5/2.8;
 }
 /*聯絡資訊*/
