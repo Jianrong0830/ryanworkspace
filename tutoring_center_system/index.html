@@ -1,0 +1,67 @@
+<html>
+    <title>Tutoring Center System</title>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="pc.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body BGCOLOR="#EEEEEE">
+        排版還在製作中，敬請見諒...
+
+        <h1>Tutoring Center System 家教中心紀錄系統</h1>
+        快速跳轉
+        <a href="https://cram-school-platform-z43ycc7jya-uc.a.run.app/" target="_blank">新系統</a>
+        <a href="https://tutoringclass.budibase.app/app/cclass_upload#/home" target="_blank">舊系統</a>
+
+        <h2>新版</h2>
+
+        <h3>簡介</h3>
+        在學習一陣子的Flask、Vue.js後，系統設計分析課程需要分析任一個系統，於是我決定直接改良家教班的紀錄系統。<br>
+        這一次我們有用像Budibase類的現成工具，從前端、後端到容器化部署都實際開操作一遍。<br><br>
+        我們家教班特別的地方是有1對1上課及1對多上課，兩種費用計算方式不同，具體要根據基本價、人數及重疊時間計算。<br>
+        於是這個問題成了最大的難點，後來我靠特別的資料庫結構及前端UI解決這個問題。<br>
+
+        <h3>用例</h3>
+        1. 使用者根據身分進入對應的頁面<br>
+        2. 管理員事先設定好所有人的基本學費、薪水<br>
+        3. 老師創建上課紀錄(日期、科目、老師)，並展開子表格，插入學生狀況，以管理1對多課程。<br>
+        4. 系統根據重疊時間及上課人數自動計算薪水及學費<br>
+        5. 老師根據身分查詢自己的課程，無法看到他人的資料<br>
+        
+        <h3>技術框架</h3>
+        使用工具：Flask、Vue.js、Vuetify、MSSQL、Docker<br>
+        部署平台：Google Cloud Run<br><br>
+
+        <h3>圖片及系統連接</h3>
+        登入： (點選下圖跳轉系統)<br>
+        <div id="img_div4" class="img_div"><a href="https://cram-school-platform-z43ycc7jya-uc.a.run.app/" target="_blank"><img src="image/app2_login.png"></a></div>
+
+        管理員首頁：<br>
+        <div id="img_div5" class="img_div"><img src="image/app2_home.png"></div>
+
+        課程查詢(部分)：<br>
+        <div id="img_div6" class="img_div"><img src="image/app2_class.png"></div>
+
+        <h2>舊版</h2>
+
+        <h3>簡介</h3>
+        這是我剛學習SQL時練習做的專案，當時工作的家教班還在用Line群組回報並人工入檔，效率實在太差。<br>
+        於是我找到免費MSSQL託管，並用Budibase做簡易前端，用Python做管理員後端。
+
+        <h3>上傳及查詢網頁</h3>
+        使用工具：Budibase、MSSQL<br><br>
+        點選下圖跳轉系統<br>
+        <div id="img_div1" class="img_div"><a href="https://tutoringclass.budibase.app/app/cclass_upload#/home" target="_blank"><img src="image/app1_page.png"></a></div>
+        
+        <h3>後台視窗應用</h3>
+        使用工具：Python、MSSQL<br><br>
+        首頁：<br>
+        <div id="img_div2" class="img_div"><img src="image/app1_win1.png"></div>
+        老師上課紀錄：
+        <div id="img_div3" class="img_div"><img src="image/app1_win2.png"></div>
+
+    </body>
+</html>

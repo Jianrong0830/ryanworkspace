@@ -1,0 +1,42 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.img_div {
+    height: auto;
+    border-style: groove;
+    border-color: black;
+    border-radius: 2%;
+    border-width: 1%;
+}
+
+#img_div1 {
+    aspect-ratio: 5/2;
+    width: 50%;
+}
+
+#img_div2 {
+    aspect-ratio: 4/3;
+    width: 30%;
+}
+
+#img_div3 {
+    aspect-ratio: 5/3;
+    width: 30%;
+}
+
+#img_div4 {
+    aspect-ratio: 5/3;
+    width: 40%;
+}
+
+#img_div5 {
+    aspect-ratio: 2/1;
+    width: 40%;
+}
+
+#img_div6 {
+    aspect-ratio: 2/1;
+    width: 40%;
+}
