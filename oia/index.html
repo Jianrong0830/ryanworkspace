@@ -1,0 +1,45 @@
+<html>
+    <title>NTUT Exchange Student Portal</title>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="pc.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body BGCOLOR="#EEEEEE">
+        排版還在製作中，敬請見諒...
+
+        <h1>NTUT Exchange Student Portal 北科國際處交換生申請系統 (協作)</h1>
+        
+        <h2>簡介</h2>
+        因為我未來想要出國交換，因此在學校國際處擔任一陣子的志工。因緣際會下，我被邀請協助一個印度學長開發一個申請平台。<br>
+        我們學校的國際處系統不知為何在很久以前被停用了，因此行政人員都是使用Google表單及Excel處理資料。<br>
+        但學生們很容易送出一些不合格式的資料，因此就有了這個平台的誕生。<br><br>
+
+        印度學長很厲害，我加入的時候大致框架都已經完成，我的工作是Debug、調整程式碼以符合行政人員的需求，外加將系統翻譯成中文。<br>
+        之前我比較少這種動態網站的開發經驗，這次的經驗讓我學習到Web App的運作，以及和前端的資料交換，學長也交給了我Vue.js和Vuetify這兩個好東西<br>
+        正是因這次的學習，讓我有了另一項專案得必備技能
+        (詳細內容可參考 <a href="../tutoring_center_system/index.html">Tutoring Center System 家教中心紀錄系統</a>)。<br>
+
+        <h2>功能</h2>
+        此平台分為2部分：<br>
+        1.申請平台： 學生在申請平台上傳申請資料，並匯出成一份PDF申請表自動寄到學生信箱。<br>
+        2.檔案平台： 學生列印PDF申請表並簽名，掃描後上傳至檔案平台。<br>
+        資料儲存： 申請資料會存在Google Sheet，上傳檔案傳到雲端硬碟。<br><br>
+
+        <h3>申請平台</h3>
+        點選下圖跳轉系統 (偶爾網站會關閉，可能不一定看的到)
+        <div id="img_div1" class="img-div"><a href="https://script.google.com/a/macros/mail.ntut.edu.tw/s/AKfycbxd69isbiNKgRd-47D0maZgWqWHs18--qIpVun0zhMzsP7YlIh0Il6Imyr4kMiLi3Q-ig/exec"><img src="image/app1_1.png"></a></div>
+
+        <h3>檔案平台</h3>
+        點選下圖跳轉系統 (偶爾網站會關閉，可能不一定看的到)
+        <div id="img_div2" class="img-div"><a href="https://script.google.com/a/macros/mail.ntut.edu.tw/s/AKfycbz7M7pv4jpY6KiVbmJSFgQpfX6ARzEr_7kXZHoiFlBo/dev?authuser=0"><img src="image/app2_1.png"></a></div>
+        
+        <h2>新計畫</h2>
+        在113申請結束後，我再次接到國際處的委託。這次的內容是刊發一個Web App，能夠讓行政人員更方便的存取歷年學生的申請資料。<br>
+        因我已經熟悉Flask的開發，這次我想試試不一樣的框架。我打算用Django、PostgreSQL為主要後端框架，前端使用React，部署則是Render。<br>
+        開發完成後會再更新上來！
+    </body>
+</html>
